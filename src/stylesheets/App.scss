@@ -1,0 +1,61 @@
+/* YOUR STYLING HERE */
+.page {
+  background-color: $light-blue;
+  padding-bottom: 10rem;
+
+  h1, h3 {
+    text-align: center;
+    color: $blue;
+  }
+}
+
+.question-list {
+  padding: 1rem 10rem;
+  color: $grey
+}
+
+.unselected-question {
+  padding: 1rem 0;
+  border-bottom: solid 1px;
+
+  i {
+    padding: 0px 2rem;
+  }
+
+   h5 {
+     display: inline-block;
+   }
+}
+
+.selected-question {
+  padding: 1rem 0;
+
+  i {
+    padding: 0px 2rem;
+  }
+
+   h5 {
+     display: inline-block;
+   }
+}
+
+
+.green {
+  color: green;
+}
+
+.newQuestionForm {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.newFormLabel {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 20px;
+  color: $grey;
+}
+
+.button {
+  background-color: $blue;
+}
