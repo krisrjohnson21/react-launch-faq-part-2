@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from "react-router-dom"
 import _ from 'lodash'
 
 import TextField from './TextField'
@@ -13,7 +14,6 @@ const QuestionForm = (props) => {
   const [errors, setErrors] = useState({})
 
   const clearForm = (event) => {
-    event.preventDefault()
     setNewQuestion({
       question: "",
       answer: ""
@@ -78,6 +78,10 @@ const QuestionForm = (props) => {
           value="Add Question"
         />
       </form>
+
+      <h3>
+        <Link to="/launchers">Click here to view a list of famous launchers!</Link>
+      </h3>
     </div>
   )
 }

@@ -1,12 +1,13 @@
 /* YOUR STYLING HERE */
-.page {
+body {
   background-color: $light-blue;
   padding-bottom: 10rem;
+}
 
-  h1, h3 {
-    text-align: center;
-    color: $blue;
-  }
+h1, h3 {
+  text-align: center;
+  color: $blue;
+  margin: 2rem auto 0rem auto;
 }
 
 .question-list {
@@ -46,7 +47,7 @@
 
 .newQuestionForm {
   width: 60%;
-  margin: 10px auto;
+  margin: 3rem auto;
 }
 
 .newFormLabel {
@@ -58,4 +59,20 @@
 
 .button {
   background-color: $blue;
+}
+
+.bioHeader {
+  margin: 2rem auto;
+}
+
+.bio {
+  font-size: 20px;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.bioList {
+  font-size: 20px;
+  width: 80%;
+  margin: 20px auto;
 }
